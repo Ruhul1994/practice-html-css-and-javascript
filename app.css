@@ -2,3 +2,24 @@
 h1{
   color: rgb(220, 122, 11);
 }
+
+#ankor:link{
+  color:blue;
+  background-color:transparent;
+  tex-decoration:none
+  }
+  #ankora:hover{
+  color:red;
+  backgroundcolor:transparent;
+  tex-decoration:underline;
+  }
+ #ankor:visited{
+  color:rgb(16, 216, 46) ;
+  background-color:transperent;
+  text-decoration:underline;
+  }
+  #ankor:active{
+  color:rgb(177, 118, 118);
+  background-color:transperent;
+  text-decoration:none
+  }
