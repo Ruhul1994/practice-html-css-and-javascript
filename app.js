@@ -9,7 +9,6 @@ function getAlert(){
 }
 
 console.log(4+6);
-
 let rohim, korim, jamal;
 rohim = 32;
 korim = 23;
