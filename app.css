@@ -1,6 +1,10 @@
 
 h1{
   color: rgb(220, 122, 11);
+  padding: 3000px;
+}
+p {
+  display: inline-block;
 }
 
 #ankor:link{
