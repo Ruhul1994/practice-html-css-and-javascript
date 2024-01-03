@@ -27,3 +27,9 @@ p {
   background-color:transperent;
   text-decoration:none
   }
+
+  body{
+    background-image:url(picture/pexels-pixabay-531880.jpg) ;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+  }
