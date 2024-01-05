@@ -1,5 +1,5 @@
 
-h1{
+/* h1{
   color: rgb(220, 122, 11);
   padding: 3000px;
 }
@@ -32,7 +32,7 @@ p {
     background-image:url(picture/pexels-pixabay-531880.jpg) ;
     background-repeat:no-repeat;
     background-attachment:fixed;
-  }
+  } */
 
   /* table,th,td{
     width: auto;
@@ -57,7 +57,7 @@ p {
     background-color:rgba(150, 212, 212, 0.4);
   } */
 
-  table{
+  /* table{
     width: 5%;
     border-collapse: collapse;
     color: rgb(255, 0, 98);
@@ -76,4 +76,20 @@ p {
   
   #firsttr{
     background-color: aquamarine;
+  } */
+
+
+  /* caption{
+    color: rgb(244, 137, 137);
   }
+  table{
+    color: white;
+    border-collapse:collapse;
+    width: 5%;
+    border: 1px solid black;
+    text-align: center;
+  }
+  
+  th, td{
+    border-bottom: 1px solid black;
+  } */
