@@ -38,3 +38,13 @@ function myFunction() {
 
   }
 }
+
+function lightON_Off(ws){
+let pic;
+if(ws == 0){
+pic = "picture/pic_bulboff.gif"
+}else{
+  pic ="picture/pic_bulbon.gif"
+}
+document.getElementById("imageCollection").src= pic;
+}
