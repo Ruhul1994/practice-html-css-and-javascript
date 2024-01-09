@@ -93,8 +93,3 @@ p {
   th, td{
     border-bottom: 1px solid black;
   } */
-
-  kbd > kbd  {
-    border: 1px solid black;
-    border-radius: 4px;
-  }

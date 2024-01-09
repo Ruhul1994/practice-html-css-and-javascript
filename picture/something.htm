@@ -1,13 +1,13 @@
-<! DOCTYPE html;>
-<html lang="en">
-<head>
+<!-- DOCTYPE html;-->
+<html lang="en" data-lt-installed="true"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>something</title>
-  <link rel="icon" type="image" href="picture/Red Lines Sports Logo.png">
-  <link rel="stylesheet" href="app.css">
+  <link rel="icon" type="image" href="http://127.0.0.1:5500/picture/Red%20Lines%20Sports%20Logo.png">
+  <link rel="stylesheet" href="something_files/app.css">
 </head>
-<body style="background-color:powderblue; width: 100000px;">
+<body style="background-color:powderblue; width: 100000px;" data-new-gr-c-s-check-loaded="8.909.0" data-gr-ext-installed="">
   <!--
   <p><a href="#c4">jamp c4</a></p>
   <p><a href="#c3">jamp c3</a></p>
@@ -244,29 +244,54 @@
   <iframe  width="400px" height="300px" name="ifram_a" frameborder="0" title="new iframe"></iframe>
   <p><a href="https://www.wikipedia.org/" target="ifram_a">tha ankor website</a> </p> -->
 
-<P>The light on and of project</P>
-<img id="imageCollection" src="picture/pic_bulboff.gif" alt="the light" width="100px" height="180px" style="margin: 15px;">
+<p>The light on and of project</p>
+<img id="imageCollection" src="something_files/pic_bulboff.gif" alt="the light" width="100px" height="180px" style="margin: 15px;">
 <p>
   <button onclick="lightON_Off(1)" style="background-color: green; color: aliceblue;">light on</button>
   <button onclick="lightON_Off(0)" style="background-color: green; color: aliceblue; margin-left: 5px;">light off</button>
 </p>
-the enter the  <kbd> <kbd>ctrl</kbd> + <kbd> s </kbd> </kbd>  the save the page.</p>
+<p>the enter the ctrl + s the save the page.</p>
 
-<form action="https://www.notion.so/Reading-or-doing-now-4f4c2dd0aafc43f4b3b7b9ccbc815ad6">
-  <label for="fname">First name</label> <br>
-  <input type="text" id="fname" name="fname" value="Ruhul"><br>
-  <label for="lname">Last Name</label><br>
-  <input type="text" id="lname" name="lname" value="kuddus"> <br>
-  <input type="radio" name="fav-lang" id="html">
-  <label for="html">Html</label><br>
-  <input type="radio" name="fav-lang" id="css">
-  <label for="css">CSS</label><br>
-  <input type="radio" name="fav-lang" id="javaScript">
-  <label for="javaScript">javaScript</label> <br>
-  <input type="button" value="submit">
-</form>
-
-  <script src="app.js">
+  <script src="something_files/app.js">
   </script> 
 
-</body>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
