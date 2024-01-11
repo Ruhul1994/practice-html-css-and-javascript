@@ -253,6 +253,8 @@
 the enter the  <kbd> <kbd>ctrl</kbd> + <kbd> s </kbd> </kbd>  the save the page.</p>
 
 <form action="https://www.notion.so/Reading-or-doing-now-4f4c2dd0aafc43f4b3b7b9ccbc815ad6">
+  <fieldset>
+    <legend>Parsonalia:</legend>
   <label for="fname">First name</label> <br>
   <input type="text" id="fname" name="fname" value="Ruhul"><br>
   <label for="lname">Last Name</label><br>
@@ -270,15 +272,27 @@ the enter the  <kbd> <kbd>ctrl</kbd> + <kbd> s </kbd> </kbd>  the save the page.
   
   <input type="checkbox" name="car3" id="car3">
   <label for="car3">I have a china car</label><br>
-
+ <label for="car"> select the one car brand now</label><br>
   <select name="car" id="car">
+    <optgroup label="Sudish Car"></optgroup>
     <option value="">select one</option>
     <option value="BMW">BMW</option>
+    <optgroup label="Garman Car">           </optgroup>
     <option value="volvo">volvo</option>
     <option value="chary">chary</option>
-    <option value="tototya">tototya</option>
+    <option value="tototya">tototya</option> <br>
   </select> <br>
+
+  
+  <span id="valueDisplay">20</span><br>
+  <input type="range" name="rangeShow" id="rangeShow" value="20" oninput="updateValueDisplay()"> <br>
+  
+  <textarea name="massage" id="massage" cols="30" rows="10">please write the details discription in hear...</textarea> <br>
   <input type="submit" value="submit">
+  <input type="password" name="paw" id="paw">
+  <label for="bookingDate">Booking Date</label>
+  <input type="date" name="bookingDate" id="bookingDate" max="2022-12-31">
+</fieldset>
 </form>
 
 

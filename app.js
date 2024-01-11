@@ -48,3 +48,9 @@ pic = "picture/pic_bulboff.gif"
 }
 document.getElementById("imageCollection").src= pic;
 }
+
+function updateValueDisplay() {
+let value = document.getElementById("rangeShow").value;
+document.getElementById("valueDisplay").textContent = value;
+
+}
