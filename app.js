@@ -54,3 +54,7 @@ let value = document.getElementById("rangeShow").value;
 document.getElementById("valueDisplay").textContent = value;
 
 }
+
+
+
+document.getElementById('btn').addEventListener('click', )

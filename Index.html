@@ -288,12 +288,25 @@ the enter the  <kbd> <kbd>ctrl</kbd> + <kbd> s </kbd> </kbd>  the save the page.
   <input type="range" name="rangeShow" id="rangeShow" value="20" oninput="updateValueDisplay()"> <br>
   
   <textarea name="massage" id="massage" cols="30" rows="10">please write the details discription in hear...</textarea> <br>
-  <input type="submit" value="submit">
-  <input type="password" name="paw" id="paw">
-  <label for="bookingDate">Booking Date</label>
-  <input type="date" name="bookingDate" id="bookingDate" max="2022-12-31">
+  
+  <input type="password" name="paw" id="paw"><br>
+  <label for="mail">Email</label>
+  <input type="email" name="mail" id="mail">
+  <label for="bookingDate">Booking Date</label> <br>
+  <input type="date" name="bookingDate" id="bookingDate" max="2022-12-31"><br><br>
+  <label for="barthday">Barth Day</label>
+  <input type="datetime-local" name="barthday" id="barthday">
+  <input type="submit" value="submit"><br>
+  <fieldset>
+    <legend>input you number 4 to 8</legend>
+  <label for="count">Number</label>
+  <input type="number" name="count" id="count" min="4" max="8"><br>
+</fieldset>
+
 </fieldset>
 </form>
+
+<button id = btn >Subscribd</button>
 
 
   <script src="app.js">
