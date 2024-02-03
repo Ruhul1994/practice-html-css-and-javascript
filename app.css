@@ -136,3 +136,15 @@ p {
     transform: rotateX('angle');
     cursor: pointer;
   }
+
+  #animation1{
+    width:100px;
+    height:100px;
+    background-color: green;
+    animation-name:fast;
+    animation-duration: 10s;
+  }
+  @keyframes fast{
+    from{background-color: green;}
+     to {background-color: red;}
+  }
